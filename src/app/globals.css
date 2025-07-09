@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    user-select: none; /* Prevents text selection */
+}
+body {
+    transition-property: opacity, transform, filter, background;
+    transition-timing-function: ease-in-out;
+    transition-duration: 500ms;
+    background-color: #0a0a0a;
+  }
+  
+  .page-transition {
+    opacity: 0;
+    background: black;
+    transform: translateY(40px);
+    filter: blur(12px);
+  }
